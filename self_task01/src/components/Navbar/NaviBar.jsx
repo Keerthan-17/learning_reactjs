@@ -4,7 +4,7 @@ import NavRight from './NavRight'
 
 const NaviBar = () => {
   return (
-    <div className="h-15 bg-green-100/50 flex justify-between rounded-2xl" >
+    <div className="absolute top-0 left-0 w-full h-15 z-50 bg-green-100/90 flex justify-between rounded-2xl" >
       <NavLogo/>
       <NavMiddle/>
       <NavRight/>
