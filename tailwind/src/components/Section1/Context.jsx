@@ -3,7 +3,7 @@ import RightContent from './RightContent'
 
 const Context = (props) => {
   return (
-    <div className="py-10 px-18 h-[90vh] flex justify-between gap-10 ">
+    <div className="pb-16 pt-6 px-18 h-[90vh] flex justify-between gap-10 ">
       <LeftContent />
       <RightContent users={props.users}/>
     </div>
