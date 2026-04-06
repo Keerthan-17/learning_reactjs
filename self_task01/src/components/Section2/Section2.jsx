@@ -1,8 +1,13 @@
-import React from 'react'
+import LeftContent from "./LeftContent"
+import RightContent from "./RightContent"
+
 
 const Section2 = () => {
   return (
-    <div className='h-screen w-full bg-green-900'>Section2</div>
+    <div className='h-150 w-full bg-gray-200 flex justify-between items-center'>
+      <LeftContent />
+      <RightContent />
+    </div>
   )
 }
 
