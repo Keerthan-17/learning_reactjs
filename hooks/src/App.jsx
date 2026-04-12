@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Formpage from "./Formpage"
 const App = () => {
 
   const [data, setdata] = useState({user:'Mike', age:20})
@@ -21,6 +22,7 @@ const App = () => {
     <div>
       <h1>Name: {data.user}, Age:{data.age}</h1>
       <button onClick={updatevalue}>Click Me!!</button>
+      <Formpage/>
     </div>
   )
 }
